@@ -1,10 +1,11 @@
-var guest_list = ['Farhan', 'Akhter', 'tanveer', 'shahid'];
+"use strict";
+let guest_list = ['Farhan', 'Akhter', 'tanveer', 'shahid'];
 // for(let i=0; i<guest_list.length; i++){
 //     console.log('\n\nDear Mr, '+guest_list[i]+ ',\n\nit is our Pleasur to invite you in our party.\n\nThank you.');
 // }
-var absent_guest = 'Akhter';
-var new_guest = 'Nouman';
-guest_list["1"] = new_guest;
+let absent_guest = 'Akhter';
+let new_guest = 'Nouman';
+guest_list[`1`] = new_guest;
 // for(let i=0; i<guest_list.length; i++){
 //     console.log('\n\nDear Mr, '+guest_list[i]+ ',\n\nit is our Pleasur to invite you in our party.\n\nThank you.');
 // }
@@ -20,7 +21,7 @@ guest_list.push('Kashif');
 // 2 se zayda guest ko remove kya hai.
 // console.log('\n\nsorry we cannt arrange big table, Only two Guest will be invite.\n');
 while (guest_list.length > 2) {
-    var remove_guest = guest_list.pop();
+    let remove_guest = guest_list.pop();
     // console.log(`Sorry Mr. ${remove_guest} we are not invited for dinner.`)
 }
 // bachy huy guest ko invite kya hai.
@@ -32,4 +33,4 @@ console.log(guest_list);
 // Excercise No 19.
 // 19.	Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message 
 // indicating the number of people you are inviting to dinner.
-console.log("Total No Of Guest:".concat(guest_list.length));
+console.log(`Total No Of Guest:${guest_list.length}`);

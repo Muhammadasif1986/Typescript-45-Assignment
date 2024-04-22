@@ -12,9 +12,9 @@ let magician = ['herry potter', 'Apollo the Magnificent', 'Aether the Unseen', '
 function copy_arr(arr) {
     return [...arr];
 }
-function make_great(magicianArry) {
-    for (let i = 0; i < magicianArry.length; i++) {
-        magician[i] = 'The Great ' + magicianArry[i];
+function make_great(magician) {
+    for (let i = 0; i < magician.length; i++) {
+        magician[i] = 'The Great ' + magician[i];
     }
 }
 function show_magicians(magicians) {

@@ -1,0 +1,22 @@
+{
+  "name": "typescript-45-assignment",
+  "version": "1.0.0",
+  "description": "typescript-45-assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammadasif1986/Typescript-45-Assignment.git"
+  },
+  "author": "Muhammad Asif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammadasif1986/Typescript-45-Assignment/issues"
+  },
+  "homepage": "https://github.com/Muhammadasif1986/Typescript-45-Assignment#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  }
+}

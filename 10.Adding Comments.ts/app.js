@@ -6,6 +6,6 @@
 //   just add your name and the current date at the top of each program file.
 //  Then write one sentence describing what the program does.
 // this program was written by M.Asif
-// crrent Date:- 25/02/2024
+// current Date:- 25/02/2024
 //this program is write Hello World!!
 console.log("Hello, World!!");

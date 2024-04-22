@@ -17,9 +17,9 @@ function make_album(artist, title, tracks) {
     }
     return album;
 }
-const album1 = make_album('Atist 1', 'Title 1');
+const album1 = make_album('Artist 1', 'Title 1');
 console.log(album1);
-const album2 = make_album('Atist 2', 'Title 2');
+const album2 = make_album('Artist 2', 'Title 2');
 console.log(album2);
-const album3 = make_album('Atist 3', 'Title 3', 12);
+const album3 = make_album('Artist 3', 'Title 3', 12);
 console.log(album3);
